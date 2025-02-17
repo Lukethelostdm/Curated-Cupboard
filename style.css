@@ -221,6 +221,13 @@ body {
 
   }
 
+  .col-2 h2{
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+  }
+
   .col-2 p {
     word-wrap: break-word;
     text-align: center;
@@ -242,6 +249,11 @@ body {
     border-radius: 5px;
     margin: 0%;
     padding-bottom: 2rem;
+  }
+
+  .text-link{
+    text-decoration: none;
+    color: black;
   }
 
   .clean-row {
@@ -284,7 +296,6 @@ body {
 
   .first-title::after {
     content: '';
-    background: #fff;
     width: 160px;
     height: 5px;
     border-radius: 5px;
@@ -847,7 +858,7 @@ body {
     padding: 0.5rem 0.7rem;
     border: none;
     outline: none;
-    border-radius: 2rem;
+    border-radius: .5rem;
     font-size: 2rem;
     font-weight: 400;
     cursor: pointer;
@@ -885,8 +896,10 @@ body {
   .quiz button:hover,
   .contact-left button:hover {
     scale: 1.05;
-    color: #fff;
-    text-shadow: #000 1px 1px;
+    color: #000;
+    text-shadow: #fff 1px 1px;
+    font-weight: bold;
+    background-color: rgba(94, 93, 93, 0.5);
   }
 
 
@@ -1086,18 +1099,6 @@ body {
     position: relative;
     line-height: 60px;
     color: #000;
-  }
-
-  .first-title::after {
-    content: '';
-    background: purple;
-    width: 200px;
-    height: 5px;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
   }
 
   h4 {
@@ -2255,8 +2256,9 @@ body {
 /*Extra large screens*/
 @media (min-width: 1536px) {
   .utility {
-    max-width: 1536px;
-
+    max-width:100%;
+    padding: 0px;
+    margin: auto;
   }
 
   .nav-bar {
@@ -2271,12 +2273,11 @@ body {
   .nav-bar img {
     width: 70%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 
   .hero {
-    margin: 0;
+    margin-bottom: 2rem;
     padding: 0%;
     height: 100vh;
   }
@@ -2291,9 +2292,13 @@ body {
     height: 100%;
   }
 
+.about{
+  margin: auto;
+  padding: 0%;
+}
+
   .col-2 h1 {
     font-size: 3rem;
-
   }
 
   .col-2 p {
@@ -2328,7 +2333,7 @@ body {
   }
 
   .row .col-2 p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 3;
   }
 
