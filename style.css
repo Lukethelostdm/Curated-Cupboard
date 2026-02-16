@@ -32,7 +32,6 @@ body {
   padding-right: 0.5rem;
 }
 
-
 .nav-bar {
   width: 100%;
   height: auto;
@@ -52,14 +51,12 @@ body {
   height: auto;
 }
 
-
 .menu {
   display: flex;
 }
 
 .menu li {
   padding-left: 30px;
-
 }
 
 .menu li a {
@@ -113,11 +110,10 @@ body {
   display: none;
 }
 
-
 /*media - change if you want to change the display for a device.*/
 
 /*Extra small screens*/
-@media (min-width:320px) {
+@media (min-width: 320px) {
   .utility {
     max-width: 100%;
     padding: 0px;
@@ -134,8 +130,8 @@ body {
     top: 0;
     right: -100%;
     z-index: 100;
-    transition: all .5s ease-in-out;
-    background: rgba(167, 167, 167, .5);
+    transition: all 0.5s ease-in-out;
+    background: rgba(167, 167, 167, 0.5);
     backdrop-filter: blur(10px);
   }
 
@@ -153,11 +149,11 @@ body {
     margin-top: 3rem;
   }
 
-  #check:checked~.menu {
+  #check:checked ~ .menu {
     right: 0;
   }
 
-  #check:checked~.open-menu {
+  #check:checked ~ .open-menu {
     visibility: hidden;
   }
 
@@ -218,7 +214,6 @@ body {
 
   .col-2 h1 {
     font-size: 2rem;
-
   }
 
   .col-2 h2 {
@@ -245,7 +240,7 @@ body {
   .cleaning-services {
     height: 100%;
     width: 100%;
-    background: rgba(181, 72, 93, .8);
+    background: rgba(181, 72, 93, 0.8);
     border-radius: 5px;
     padding-bottom: 2rem;
     margin-top: -1.5rem;
@@ -263,13 +258,12 @@ body {
   }
 
   .clean-column-eight .trial {
-    border: #D8B589 10px groove;
+    border: #d8b589 10px groove;
     transform: rotate(5deg);
   }
 
   .clean-column-eight .trial:hover {
     transform: rotate(0);
-
   }
 
   .clean-column-eight img {
@@ -278,9 +272,7 @@ body {
     width: 100%;
     height: 25vh;
     border: #876148 10px ridge;
-
   }
-
 
   .first-title {
     font-size: 35px;
@@ -295,7 +287,7 @@ body {
   }
 
   .first-title::after {
-    content: '';
+    content: "";
     width: 160px;
     height: 5px;
     border-radius: 5px;
@@ -304,7 +296,6 @@ body {
     left: 50%;
     transform: translateX(-50%);
   }
-
 
   .clean-column-eight h4 {
     font-size: 1.2rem;
@@ -321,9 +312,6 @@ body {
   .clean-column-eight:hover {
     transform: translateY(-5px);
   }
-
-
-
 
   /*----------------------------------------HOW IT WORKS---------------------------*/
 
@@ -394,18 +382,16 @@ body {
     font-style: normal;
   }
 
-
   /*---------------------------------------------------TESTIMONIAL-----------------------------------------------------------------*/
-
 
   .testimonial {
     display: block;
-    background: rgba(181, 72, 93, .8);
+    background: rgba(181, 72, 93, 0.8);
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
     height: 100%;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     padding-bottom: 2rem;
     border-radius: 5px;
   }
@@ -451,7 +437,7 @@ body {
   }
 
   .col-3 p {
-    font-size: .9rem;
+    font-size: 0.9rem;
     color: #000;
     font-family: "Cormorant Garamond", sans-serif;
     margin: 0 2rem;
@@ -481,7 +467,6 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-
   }
 
   .open-container {
@@ -546,7 +531,7 @@ body {
   }
 
   details summary::after {
-    content: "\25BC" / "";
+    content: "\25BC"/ "";
     display: inline-block;
     font-size: 0.6rem;
     height: 1rem;
@@ -608,9 +593,7 @@ body {
     margin-right: auto;
   }
 
-
   /*-----------------------------------ABOUT US-------------------------------------*/
-
 
   .about {
     width: 100%;
@@ -640,7 +623,7 @@ body {
     font-family: "Cormorant Garamond", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .col-2 img {
@@ -655,9 +638,7 @@ body {
     box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
   }
 
-
   /*---------------------------------------------------Contact-----------------------------------------------------------------*/
-
 
   .contact-container {
     display: flex;
@@ -667,7 +648,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 5px;
-    background-color: rgba(181, 72, 93, .8);
+    background-color: rgba(181, 72, 93, 0.8);
     border-radius: 10px;
   }
 
@@ -714,7 +695,7 @@ body {
     border-radius: 50px;
     border: #000 solid;
     border-radius: 5px;
-    background-color: rgba(128, 128, 128, .5);
+    background-color: rgba(128, 128, 128, 0.5);
   }
 
   .contact-left textarea {
@@ -733,8 +714,6 @@ body {
 
   /*---------------------------------------------------FAQ-----------------------------------------------------------------*/
 
-
-
   .faq-container {
     padding: 4rem;
     width: 100%;
@@ -747,7 +726,7 @@ body {
     border-bottom: 1px solid #e5e5e5;
   }
 
-  .accordion .accordion-item button[aria-expanded='true'] {
+  .accordion .accordion-item button[aria-expanded="true"] {
     border-bottom: 1px solid #03b5d2;
   }
 
@@ -802,7 +781,7 @@ body {
   .accordion button .icon::before {
     display: block;
     position: absolute;
-    content: '';
+    content: "";
     top: 9px;
     left: 5px;
     width: 10px;
@@ -813,7 +792,7 @@ body {
   .accordion button .icon::after {
     display: block;
     position: absolute;
-    content: '';
+    content: "";
     top: 5px;
     left: 9px;
     width: 2px;
@@ -821,15 +800,15 @@ body {
     background: currentColor;
   }
 
-  .accordion button[aria-expanded='true'] {
+  .accordion button[aria-expanded="true"] {
     color: #03b5d2;
   }
 
-  .accordion button[aria-expanded='true'] .icon::after {
+  .accordion button[aria-expanded="true"] .icon::after {
     width: 0;
   }
 
-  .accordion button[aria-expanded='true']+.accordion-content {
+  .accordion button[aria-expanded="true"] + .accordion-content {
     opacity: 1;
     max-height: 9em;
     transition: all 200ms linear;
@@ -851,7 +830,6 @@ body {
     margin: 2em 0;
   }
 
-
   /********************************************************** BUTTONS************************************/
 
   .booking_btn,
@@ -862,7 +840,7 @@ body {
     padding: 0.5rem 0.7rem;
     border: none;
     outline: none;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     font-size: 2rem;
     font-weight: 400;
     cursor: pointer;
@@ -888,7 +866,6 @@ body {
     display: none;
   }
 
-
   .read_btn:active,
   .booking_btn:active {
     scale: 0.95;
@@ -896,7 +873,6 @@ body {
 
   .booking_btn:hover,
   .read_btn:hover,
-  .book_btn:hover,
   .quiz button:hover,
   .contact-left button:hover {
     scale: 1.05;
@@ -906,14 +882,19 @@ body {
     opacity: 65%;
   }
 
-
+  .book_btn:hover{
+    scale: 1.05;
+    color: #000;
+    text-shadow: #fff .5px .5px;
+    font-weight: bold;
+  }
   .book_btn {
     background-color:#38524A;
     color:  #EDEDE8;
     padding: 0.5rem 0.5rem;
     border: none;
     outline: none;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     font-size: 1rem;
     font-weight: 400;
     cursor: pointer;
@@ -925,6 +906,26 @@ body {
     font-family: "Cormorant Garamond", sans-serif;
   }
 
+  .book_btn:hover {
+    background-color: rgba(128, 128, 128, 0.7);
+    scale: 1.05;
+  }
+
+  .book_btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    transform: skewX(-20deg);
+    transition: left 0.5s ease-in-out;
+  }
+
+  .book_btn:hover::after {
+    left: 100%;
+  }
 
   .quiz button {
     display: flex;
@@ -935,7 +936,7 @@ body {
     padding: 15px 30px;
     font-size: 16px;
     color: #000;
-    background-color: rgba(128, 128, 128, .5);
+    background-color: rgba(128, 128, 128, 0.5);
     border: #000 1px 1px solid;
     border-radius: 50px;
     cursor: pointer;
@@ -951,7 +952,7 @@ body {
     padding: 15px 30px;
     font-size: 16px;
     color: #000;
-    background-color: rgba(128, 128, 128, .5);
+    background-color: rgba(128, 128, 128, 0.5);
     gap: 10px;
     border: #000 solid;
     border-radius: 5px;
@@ -970,7 +971,7 @@ body {
     display: block;
     width: 100%;
     height: 100%;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     border-top: #000 1px solid;
   }
 
@@ -1016,7 +1017,6 @@ body {
     text-shadow: #fff 1px 1px;
   }
 
-
   .foot-subject-list li {
     font-family: 'Cormorant Garamond', sans-serif;
     list-style-type: none;
@@ -1027,7 +1027,6 @@ body {
   .main-subject-list a {
     text-decoration: none;
   }
-
 
   .subject-time {
     font-style: italic;
@@ -1047,17 +1046,16 @@ body {
 
   .fav-icon-social-links a {
     color: #000;
-    padding: .5rem;
-    background-color: rgba(167, 167, 167, .5);
+    padding: 0.5rem;
+    background-color: rgba(167, 167, 167, 0.5);
     border-radius: 50%;
     border: #000 1px solid;
   }
 
   .fav-icon-social-links a:hover {
     background-color: #fff;
-    color: #B5485D;
+    color: #b5485d;
   }
-
 
   .dev {
     display: flex;
@@ -1070,7 +1068,6 @@ body {
     text-shadow: #fff 1px 1px;
     margin-top: 1.5rem;
   }
-
 
   .dev-name {
     display: flex;
@@ -1122,16 +1119,11 @@ body {
     transform: translateY(-5px);
   }
 
-
-
-
   /*-------------------------SUB PAGES BELOW
                                                               Bathroom / bedroom / kitchen etc all use the same styles 
                                                               ------------------------*/
 
   /*---------------------------------------------------TIMES & OBJECTIVES-----------------------------------------------------------------*/
-
-
 
   .organise {
     background: none;
@@ -1185,9 +1177,8 @@ body {
     margin: 1rem 2rem;
   }
 
-
   .clear {
-    background-color: rgba(181, 72, 93, .8);
+    background-color: rgba(181, 72, 93, 0.8);
     border-radius: 5px;
   }
 
@@ -1196,7 +1187,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-bottom: 2rem;
-    background-color: #ECE9E6;
+    background-color: #ece9e6;
   }
 
   .secondary,
@@ -1230,7 +1221,6 @@ body {
     font-size: 1rem;
     font-family: "Cormorant Garamond", serif;
     line-height: 0.5rem;
-
   }
 
   .move {
@@ -1263,10 +1253,10 @@ body {
     flex-direction: column;
     width: clamp(20rem, calc(20rem + 2vw), 22rem);
     overflow: hidden;
-    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
     border-radius: 1em;
-    background: #ECE9E6;
-    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    background: #ece9e6;
+    background: linear-gradient(to right, #ffffff, #ece9e6);
     cursor: pointer;
   }
 
@@ -1276,15 +1266,12 @@ body {
     margin-right: auto;
   }
 
-
   .card__body {
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: 0.5rem;
   }
-
-
 
   .card__body h4 {
     font-size: 1.5rem;
@@ -1305,12 +1292,10 @@ body {
     padding: 1rem;
     margin-top: auto;
   }
-
-
 }
 
 /*small screens*/
-@media (min-width:650px) {
+@media (min-width: 650px) {
   .utility {
     max-width: 100%;
   }
@@ -1350,13 +1335,13 @@ body {
   }
 
   .col-2 p {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .cleaning-services {
     height: 100%;
     width: 100%;
-    background: rgba(181, 72, 93, .8);
+    background: rgba(181, 72, 93, 0.8);
     border-radius: 5px;
     margin: 0%;
     padding-bottom: 2rem;
@@ -1368,7 +1353,6 @@ body {
     justify-content: space-evenly;
     display: grid;
     grid-template-columns: auto auto;
-
   }
 
   .clean-column-eight img {
@@ -1381,7 +1365,6 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-
 
   .consultation {
     align-items: center;
@@ -1437,7 +1420,6 @@ body {
     font-style: normal;
   }
 
-
   .about {
     width: 100%;
     height: 100%;
@@ -1471,13 +1453,13 @@ body {
     font-family: "Cormorant Garamond", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .col-2 img {
     width: 100%;
     height: 100%;
-    border: gold 10px ridge;
+    border: #876148 10px ridge;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   }
 
@@ -1530,9 +1512,8 @@ body {
     padding: 0 3rem;
   }
 
-
   .clear {
-    background-color: rgba(181, 72, 93, .8);
+    background-color: rgba(181, 72, 93, 0.8);
     border-radius: 5px;
   }
 
@@ -1546,7 +1527,7 @@ body {
 }
 
 /*medium screens*/
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .utility {
     max-width: 100%;
   }
@@ -1563,7 +1544,7 @@ body {
     flex-direction: row;
     width: 100%;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: right;
     font-size: 1.5rem;
     font-family: "Cormorant Garamond", serif;
     padding: 1rem 0;
@@ -1592,11 +1573,8 @@ body {
     transform: scaleX(1);
   }
 
-
-
   .col-2 h1 {
     font-size: 2.5rem;
-
   }
 
   .col-2 p {
@@ -1610,7 +1588,6 @@ body {
     justify-content: space-evenly;
     display: grid;
     grid-template-columns: auto auto;
-
   }
 
   .clean-column-eight h4 {
@@ -1630,12 +1607,12 @@ body {
 
   .testimonial {
     display: block;
-    background: rgba(181, 72, 93, .8);
+    background: rgba(181, 72, 93, 0.8);
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
     height: 100%;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     padding-bottom: 2rem;
     border-radius: 5px;
   }
@@ -1678,7 +1655,7 @@ body {
   }
 
   .col-3 p {
-    font-size: .9rem;
+    font-size: 0.9rem;
     color: #000;
     font-family: "Cormorant Garamond", sans-serif;
     margin: 0 2rem;
@@ -1699,7 +1676,6 @@ body {
     font-size: 1rem;
     font-family: "Cormorant Garamond", sans-serif;
   }
-
 
   .quiz-col-2 input {
     text-align: center;
@@ -1752,7 +1728,9 @@ body {
   .col-2 img {
     width: 100%;
     height: 100%;
-    border: gold 10px ridge;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    border: #876148 10px ridge;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   }
 
@@ -1766,11 +1744,10 @@ body {
     text-align: center;
     padding: 3rem;
   }
-
 }
 
 /*normal screens*/
-@media (min-width:1024px) {
+@media (min-width: 1024px) {
   .utility {
     width: 100%;
   }
@@ -1779,10 +1756,26 @@ body {
     width: 20%;
   }
 
+  .nav-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .nav-bar a {
+    font-size: 1rem;
+  }
+
+  .nav-bar img {
+    align-items: start;
+    justify-content: start;
+    width: 50%;
+  }
 
   .col-2 h1 {
     font-size: 2.5rem;
-
   }
 
   .col-2 p {
@@ -1797,7 +1790,6 @@ body {
     justify-content: space-evenly;
     display: grid;
     grid-template-columns: auto auto auto auto;
-
   }
 
   .consultation {
@@ -1838,12 +1830,12 @@ body {
 
   .testimonial {
     display: block;
-    background: rgba(181, 72, 93, .8);
+    background: rgba(181, 72, 93, 0.8);
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
     height: 100%;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     padding-bottom: 2rem;
     border-radius: 5px;
   }
@@ -1874,7 +1866,7 @@ body {
     font-size: 1.5rem;
     border: #000 solid;
     margin: 0;
-    padding: .5rem;
+    padding: 0.5rem;
   }
 
   .open-container ul li {
@@ -1910,7 +1902,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 5px;
-    background-color: rgba(181, 72, 93, .8);
+    background-color: rgba(181, 72, 93, 0.8);
     border-radius: 10px;
   }
 
@@ -1945,11 +1937,10 @@ body {
     border-radius: 50px;
     border: #000 solid;
     border-radius: 50px;
-    background-color: rgba(128, 128, 128, .5);
+    background-color: rgba(128, 128, 128, 0.5);
     font-size: 1rem;
     padding: 0%;
   }
-
 
   .contact-right img {
     display: block;
@@ -1961,7 +1952,7 @@ body {
     display: block;
     width: 100%;
     height: 50%;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     border-top: #000 1px solid;
   }
 
@@ -2006,7 +1997,6 @@ body {
     text-shadow: #fff 1px 1px;
   }
 
-
   .foot-subject-list li {
     font-family: 'Cormorant Garamond', sans-serif;
     list-style-type: none;
@@ -2017,7 +2007,6 @@ body {
   .main-subject-list a {
     text-decoration: none;
   }
-
 
   .subject-time {
     font-style: italic;
@@ -2037,17 +2026,16 @@ body {
 
   .fav-icon-social-links a {
     color: #000;
-    padding: .5rem;
-    background-color: rgba(167, 167, 167, .5);
+    padding: 0.5rem;
+    background-color: rgba(167, 167, 167, 0.5);
     border-radius: 50%;
     border: #000 1px solid;
   }
 
   .fav-icon-social-links a:hover {
     background-color: #fff;
-    color: #B5485D;
+    color: #b5485d;
   }
-
 
   .dev {
     display: flex;
@@ -2060,7 +2048,6 @@ body {
     text-shadow: #fff 1px 1px;
     margin-top: 1.5rem;
   }
-
 
   .dev-name {
     display: flex;
@@ -2094,7 +2081,6 @@ body {
     padding-bottom: 1rem;
   }
 
-
   .container1 {
     display: flex;
     flex-direction: row;
@@ -2114,10 +2100,10 @@ body {
     flex-direction: column;
     width: clamp(20rem, calc(20rem + 2vw), 22rem);
     overflow: hidden;
-    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
     border-radius: 1em;
-    background: #ECE9E6;
-    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    background: #ece9e6;
+    background: linear-gradient(to right, #ffffff, #ece9e6);
     cursor: pointer;
   }
 
@@ -2127,35 +2113,33 @@ body {
     margin-right: auto;
   }
 
-
   .card__body {
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: 0.5rem;
   }
-
 
   .tag {
     align-self: flex-start;
-    padding: .25em .75em;
+    padding: 0.25em 0.75em;
     border-radius: 1em;
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
 
-  .tag+.tag {
-    margin-left: .5em;
+  .tag + .tag {
+    margin-left: 0.5em;
   }
 
   .tag-blue {
-    background: #56CCF2;
-    background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+    background: #56ccf2;
+    background: linear-gradient(to bottom, #2f80ed, #56ccf2);
     color: #fafafa;
   }
 
   .tag-brown {
-    background: #D1913C;
-    background: linear-gradient(to bottom, #FFD194, #D1913C);
+    background: #d1913c;
+    background: linear-gradient(to bottom, #ffd194, #d1913c);
     color: #fafafa;
   }
 
@@ -2193,22 +2177,30 @@ body {
     border-radius: 5px;
     box-shadow: #000 5px 5px 10px;
   }
-
 }
 
 /*large screens*/
-@media (min-width:1256px) {
+@media (min-width: 1256px) {
   .utility {
     max-width: 100%;
   }
 
-  .nav-logo img {
-    width: 90%;
+  .nav-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-bar img {
+    align-items: start;
+    justify-content: start;
+    width: 50%;
   }
 
   .col-2 h1 {
     font-size: 3.5rem;
-
   }
 
   .col-2 p {
@@ -2216,7 +2208,6 @@ body {
     padding-bottom: 2rem;
     line-height: 4rem;
   }
-
 
   .about h2 {
     font-size: 2rem;
@@ -2232,10 +2223,7 @@ body {
     text-align: end;
     padding-bottom: 1rem;
   }
-
-
 }
-
 
 /*Extra large screens*/
 @media (min-width: 1536px) {
@@ -2252,7 +2240,6 @@ body {
     padding-right: 10%;
     text-align: center;
     align-items: center;
-    justify-content: center;
   }
 
   .nav-bar img {
@@ -2302,7 +2289,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-bottom: 2rem;
-    background-color: #ECE9E6;
+    background-color: #ece9e6;
   }
 
   .sub-line {
