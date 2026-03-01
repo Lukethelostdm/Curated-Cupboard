@@ -1,5 +1,6 @@
 <div class="utility">
   <div class="footer">
+    <img src="PNG-Imgs/Primary Logo (For light backgrounds).png" alt="Primary Wordmark Logo">
     <div class="foot-container">
       <div class="foot-row">
 
@@ -99,12 +100,20 @@
 
       <div class="dev">
         <div class="dev-name">
-            <a href="https://www.lukethewebdev.uk/" target="_blank">
-                Copyright © 2024 - 2025 
-                All rights reserved || <br> Designed By: Luke Mcnicol
-            </a>
+            Copyright © <span id="copyright-year"></span>
+            All rights reserved || <br>Rose Holt
         </div>
     </div>
+    
+    <script>
+    const startYear = 2024;
+    const currentYear = new Date().getFullYear();
+    const yearText = startYear === currentYear 
+        ? currentYear 
+        : `${startYear} - ${currentYear}`;
+    
+    document.getElementById("copyright-year").textContent = yearText;
+    </script>
     
 
     </div>
