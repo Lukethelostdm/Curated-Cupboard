@@ -46,29 +46,94 @@
 
     <!---------------------------------------CONTACT------------------------------->
 
-    <div class="utility">
-        <div class="contact-container-1">
-            <form action="https://formsubmit.co/lukemthewebdev@gmail.com" method="POST" class="contact-left">
-                <div class="contact-left-title">
-                    <h2>Get In Touch</h2>
-                    <hr>
-                </div>
-                <input type="hidden" name="_subject" value="New submission!">
-                <input type="hidden" name="_autoresponse"
-                    value="Thank you for reaching out, we'll be in touch shortly!">
-                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
-                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
-                <input type="text" name="name" placeholder="Write your message here" class="contact-inputs" required>
+    <main class="contact-page">
 
-                <!-- Honeypot Spam Protection -->
-                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-                <button type="submit">Submit</button>
-            </form>
-            <div class="contact-right">
-                <img loading="lazy" src="PNG-Imgs/homepage/right_img.webp" alt="image">
-            </div>
+        <div class="container reading-width">
+        
+        <h1>Contact</h1>
+        
+        <p class="intro">
+        If you’re considering working together, you’re very welcome to get in touch. You don’t need to have everything worked out. An initial message is simply a starting point.
+        </p>
+        
+        
+        <h2>How to get in touch</h2>
+        
+        <p>
+        You can either:
+        use the contact form below, or
+        email enquiries@wherethingsbelong.co.uk
+        </p>
+        
+        <p>
+        Both come directly to me.
+        You do not need to include lots of detail, a brief overview is enough to get started.
+        </p>
+        
+        
+        <form action="https://formsubmit.co/enquiries@wherethingsbelong.co.uk" method="POST" class="contact-form">
+        
+        <div class="form-field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
         </div>
-    </div>
+        
+        <div class="form-field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        </div>
+        
+        <button type="submit" class="btn-submit">Send Enquiry</button>
+        
+        </form>
+        
+        
+        <h2 class="next-heading">What happens next</h2>
+        
+        <p>
+        Once I receive your message, I’ll reply with next steps. This usually includes a short intake form to gather a little more detail about your space and what you would like support with. The intake form helps me understand your needs before arranging an assessment.
+        </p>
+        
+        <p>
+        There is no obligation at this stage. The aim is simply to understand what support would be most helpful.
+        </p>
+        
+        <p>
+        All enquiries are handled with care and without judgement. If I am not the right person to help, I will let you know honestly once I have enough information to do so.
+        </p>
+        
+        </div>
+        
+        
+        <div class="section-divider"></div>
+        
+        
+        <section class="cta-band">
+        
+        <div class="container cta-grid">
+        
+        <div class="cta-block">
+        <h3>How It Works</h3>
+        <p>A clear overview of the process from initial enquiry to completed sessions.</p>
+        <a href="/HIW.html" class="btn-primary">View the Process</a>
+        </div>
+        
+        <div class="cta-block">
+        <h3>Services</h3>
+        <p>An overview of the support available and how it can be tailored to you.</p>
+        <a href="/Services.html" class="btn-primary">View Services</a>
+        </div>
+        
+        </div>
+        
+        </section>
+        
+        </main>
 
     <!------------------------------------FOOTER------------------------------------------------->
     <!--footer bar-->
