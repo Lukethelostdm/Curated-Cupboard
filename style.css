@@ -1023,9 +1023,7 @@ font-size:16px;
 
 /*normal screens*/
 @media (min-width: 1024px) {
-  .utility {
-    width: 100%;
-  }
+
 
   .book_btn {
     width: 20%;
@@ -1060,7 +1058,6 @@ font-size:16px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
   }
 
   .nav-bar img {
