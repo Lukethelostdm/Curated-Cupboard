@@ -3,12 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/PNG-Imgs/favicon-32x32.png">
+<link rel="icon" href="icon/favicon-32x32.png">
+<link rel="apple-touch-icon" href="icon/apple-touch-icon.png">
 
-
-<title>Frequently Asked Questions</title>
+<title>Where Things Belong | Frequently Asked Questions</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Source+Sans+3:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
@@ -26,7 +28,7 @@ body {
 }
 
 .page-wrapper {
-    padding: 0 40px;
+    padding: 0 1rem;
 }
 
 .container {
@@ -35,7 +37,7 @@ body {
 }
 
 .faq-width {
-    max-width: 800px;
+    max-width: 100%;
 }
 
 /* ========================
@@ -49,21 +51,24 @@ h1 {
     color: #2E2E2E;
     padding-top: 80px;
     margin-bottom: 24px;
+    text-align: center;
 }
 
 .intro {
     font-size: 18px;
     line-height: 1.7;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 h2 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 26px;
     color: #2E2E2E;
     margin-top: 60px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 /* ========================
@@ -72,10 +77,11 @@ h2 {
 
 .faq-item {
     border-bottom: 1px solid rgba(46,46,46,0.15);
+    padding: 0 1rem;
 }
 
 .faq-question {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Source Sans 3', serif;
     font-size: 20px;
     color: #2E2E2E;
     padding: 18px 0;
@@ -88,6 +94,7 @@ h2 {
 .faq-indicator {
     font-size: 22px;
     font-weight: 500;
+    align-items: center;
 }
 
 .faq-answer {
@@ -99,6 +106,10 @@ h2 {
     font-size: 17.5px;
     line-height: 1.7;
     margin-bottom: 22px;
+}
+
+#color-change{
+    background-color: #EFEFEA;
 }
 
 /* ========================
@@ -248,15 +259,18 @@ If you’re unsure about any part of the process, the questions below may help. 
 
 <h2>Getting Started</h2>
 
-<div class="faq-item">
+<div class="faq-item" id="color-change">
 <div class="faq-question">Do I need to know exactly what I want help with before getting in touch?<span class="faq-indicator">+</span></div>
 <div class="faq-answer"><p>No. Many clients reach out because they feel stuck or unsure where to begin. The assessment is designed to clarify what support would be most useful and what a realistic next step looks like.</p></div>
 </div>
 
-<div class="faq-item">
+<div class="faq-item" id="color-change">
 <div class="faq-question">What happens after I get in touch?<span class="faq-indicator">+</span></div>
 <div class="faq-answer"><p>You’ll be sent a short client intake form to gather an initial sense of your space and what you’d like to work on. From there, an assessment is arranged to explore things in more detail and discuss how best to move forward.</p></div>
 </div>
+
+<div class="divider"></div>
+
 
 <!-- ======================== -->
 
@@ -282,28 +296,34 @@ If you’re unsure about any part of the process, the questions below may help. 
 <div class="faq-answer"><p>Every project is different. Timeframes depend on the size of the space, the volume of belongings, and the level of support required. After the assessment, you’ll receive a proposal outlining the recommended number of sessions.</p></div>
 </div>
 
+<div class="divider"></div>
+
+
 <!-- ======================== -->
 <h2>Services and Scope</h2>
 
-<div class="faq-item">
+<div class="faq-item" id="color-change">
 <div class="faq-question">What kinds of spaces can you help with?<span class="faq-indicator">+</span></div>
 <div class="faq-answer"><p>Support is not limited to specific room types. I work with whatever areas feel most difficult or most important to you, whether that’s one space or several across the home.</p></div>
 </div>
 
-<div class="faq-item">
+<div class="faq-item" id="color-change">
 <div class="faq-question">Can you help with paperwork or digital clutter?<span class="faq-indicator">+</span></div>
 <div class="faq-answer"><p>Yes. Support is available for paperwork and digital organisation, including filing systems, folders, photos, and inboxes. This is approached in the same practical, tailored way as physical spaces.</p></div>
 </div>
 
-<div class="faq-item">
+<div class="faq-item" id="color-change">
 <div class="faq-question">Do you install shelves or build storage?<span class="faq-indicator">+</span></div>
 <div class="faq-answer"><p>No. I do not carry out installation or building work. I can advise on layouts and suitable storage solutions, but any fitted or installed storage is arranged by the client. I return after installation to complete the organising work.</p></div>
 </div>
 
-<div class="faq-item">
+<div class="faq-item" id="color-change">
 <div class="faq-question">Will you buy organising products for me?<span class="faq-indicator">+</span></div>
 <div class="faq-answer"><p>Organising products such as boxes or internal storage may be sourced as part of the organising process if they are helpful and agreed in advance. Wherever possible, we also work with what you already have.</p></div>
 </div>
+
+<div class="divider"></div>
+
 
 <!-- ======================== -->
 <h2>Pricing and Practicalities</h2>
@@ -333,23 +353,29 @@ If you’re unsure about any part of the process, the questions below may help. 
 <div class="faq-answer"><p>Yes. A 50% deposit is required to secure booking, based on the initial recommended sessions outlined in your proposal. Full details are provided before confirmation.</p></div>
 </div>
 
+<div class="divider"></div>
+
+
 <!-- ======================== -->
 <h2>Fit and Boundaries</h2>
 
-<div class="faq-item">
-<div class="faq-question">Will you judge my home or the way I live?<span class="faq-indicator">+</span></div>
+<div class="faq-item" id="color-change">
+<div class="faq-question" id="color-change">Will you judge my home or the way I live?<span class="faq-indicator">+</span></div>
 <div class="faq-answer"><p>No. My work is judgement-free. Homes become difficult to manage for many reasons, and clutter is not a personal failing. The focus is always on support, not criticism.</p></div>
 </div>
 
-<div class="faq-item">
+<div class="faq-item" id="color-change">
 <div class="faq-question">Are there situations you don’t work with?<span class="faq-indicator">+</span></div>
 <div class="faq-answer"><p>Yes. I do not work in situations that are unsafe, unsanitary, or outside my scope of practice. This is discussed openly during the assessment stage.</p></div>
 </div>
 
-<div class="faq-item">
+<div class="faq-item" id="color-change">
 <div class="faq-question">What if I decide to stop or pause the project?<span class="faq-indicator">+</span></div>
 <div class="faq-answer"><p>That’s always your choice. Work is planned in sessions, and follow-up support is optional. We can pause, adjust, or conclude work as needed.</p></div>
 </div>
+
+<div class="divider"></div>
+
 
 <!-- ======================== -->
 <h2>Ongoing Support</h2>
@@ -366,21 +392,32 @@ If you’re unsure about any part of the process, the questions below may help. 
 
 <!-- CTA Section -->
 
-<section class="cta-section">
-<div class="cta-grid">
+<section class="cta-band">
 
-<div class="cta">
-<h3>Services</h3>
-<a href="/Services.html" class="button">View Services</a>
-</div>
+<div class="container cta-grid">
 
-<div class="cta">
+<div class="cta-block">
+
 <h3>Get in Touch</h3>
-<a href="/contact.html" class="button">Enquire Now</a>
-</div>
+
+<p> If you’re ready to take the next step, you can send an enquiry and I’ll get back to you.</p>
+
+<a href="contact.html" class="btn-primary">Get in Touch</a>
 
 </div>
 
+
+<div class="cta-block">
+
+<h3>Services</h3>
+
+<p> Learn more about the areas I can help with and the kind of support available.</p>
+
+<a href="Services.html" class="btn-primary">View Services</a>
+
+</div>
+
+</div>
 
 </section>
 
