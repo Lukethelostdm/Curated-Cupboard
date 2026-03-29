@@ -153,13 +153,6 @@ body{
   background:#EFEFEA;
   }
 
-  .services-overview .reading-width{
-    margin: auto;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
 
   .services-overview .reading-width ul li{
         color: #4A4A4A;
@@ -187,6 +180,10 @@ body{
   .hero-text{
     margin: 1rem auto;
     padding: auto;
+  }
+
+  .hero-text h1{
+    text-align: center;
   }
   
   .hero-image img{
@@ -271,6 +268,11 @@ body{
   background:#F7F6F3;
   color:#4A4A4A;
   }
+
+  .contact-page h2{
+    margin: 1rem 0;
+    padding: 0;
+  }
   
   /* Containers */
   
@@ -283,7 +285,7 @@ body{
   .reading-width{
   max-width:680px;
   }
-  
+
   /* Headings */
   
   h1{
@@ -335,12 +337,13 @@ body{
   .contact-form textarea{
   width:100%;
   padding:14px 16px;
-  border:1px solid #D8D8D8;
+  border:1px solid #A7A376;
   background:#FFFFFF;
   font-family:"Source Sans 3",sans-serif;
   font-size:16px;
   border-radius:3px;
   }
+
   
   .contact-form textarea{
   min-height:140px;
@@ -712,6 +715,14 @@ font-size:16px;
     backdrop-filter: blur(10px);
   }
 
+  h1,h2,h3 {
+    font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-size: 36px;
+  color: #2E2E2E;
+  margin-bottom: 60px;
+  }
+
   .menu li a {
     padding: 10px;
     font-family: 'Cormorant Garamond', sans-serif;
@@ -762,9 +773,9 @@ font-size:16px;
 
   .hero-grid{
     display: block;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
   }
 
   .hero-image{
@@ -775,6 +786,7 @@ font-size:16px;
 
   .tagline{
     font-style: italic;
+    text-align: center;
   }
 
 
